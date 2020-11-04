@@ -5,7 +5,7 @@ const data = {
             name: 'Slim Designer Shirt',
             category: 'Shirts',
             image: './images/p1.jpg',
-            price: 120,
+            price: 125,
             countInStock: 10,
             brand: 'Nike',
             rating: 4.5,
