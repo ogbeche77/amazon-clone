@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ogbeche77/amazon-clone#readme",
   "dependencies": {
+    "axios": "^0.21.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
