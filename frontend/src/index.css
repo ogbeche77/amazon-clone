@@ -158,7 +158,7 @@ img.large {
   padding: 1rem;
 }
 
-.card-body>* {
+.card-body > * {
   margin-bottom: 0.5rem;
 }
 
