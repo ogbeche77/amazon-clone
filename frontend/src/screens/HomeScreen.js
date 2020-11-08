@@ -16,20 +16,21 @@ export default function HomeScreen() {
     const { loading, error, products } = productList;
     useEffect(() => {
         dispatch(listProducts());
-        // const fetchData = async () => {
-        //     try {
-        //         setLoading(true);
-        //         const { data } = await axios.get('/api/products'); //array of data in backend transfers to frontend
-        //         setLoading(false);
-        //         setProducts(data);
-        //     } catch (err) {
-        //         setError(err.message);
-        //         setLoading(false);
-        //     }
+    }, [dispatch]);
+    // const fetchData = async () => {
+    //     try {
+    //         setLoading(true);
+    //         const { data } = await axios.get('/api/products'); //array of data in backend transfers to frontend
+    //         setLoading(false);
+    //         setProducts(data);
+    //     } catch (err) {
+    //         setError(err.message);
+    //         setLoading(false);
+    //     }
 
-        // };
-        // fetchData();
-    }, [])
+    // };
+    // fetchData();
+
 
     return (
         <div>
@@ -44,5 +45,5 @@ export default function HomeScreen() {
                     </div>}
 
         </div>
-    )
+    );
 }
