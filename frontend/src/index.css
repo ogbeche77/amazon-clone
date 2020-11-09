@@ -119,6 +119,15 @@ a.amazon {
   font-weight: bold;
 }
 
+.badge {
+  background-color: gold;
+  color: white;
+  border-radius: 50%;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
