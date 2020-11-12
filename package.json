@@ -19,7 +19,12 @@
   "homepage": "https://github.com/ogbeche77/amazon-clone#readme",
   "dependencies": {
     "axios": "^0.21.0",
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.10.13"
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
