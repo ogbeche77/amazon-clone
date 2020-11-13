@@ -17,7 +17,7 @@ const data = {
     ],
     products: [
         {
-            _id: '1',
+
             name: 'Slim Designer Shirt',
             category: 'Shirts',
             image: './images/p1.jpg',
@@ -29,7 +29,7 @@ const data = {
             description: 'Quality Product'
         },
         {
-            _id: '2',
+
             name: 'Slim Kotki Shirt',
             category: 'Shirts',
             image: './images/p2.jpg',
@@ -41,7 +41,7 @@ const data = {
             description: 'Quality Product'
         },
         {
-            _id: '3',
+
             name: 'Hogan Designer Shirt',
             category: 'Shirts',
             image: './images/p3.jpg',
@@ -53,7 +53,7 @@ const data = {
             description: 'Quality Product'
         },
         {
-            _id: '4',
+
             name: 'Kalax Pants',
             category: 'Pants',
             image: './images/p4.jpg',
@@ -65,7 +65,7 @@ const data = {
             description: 'Quality Product'
         },
         {
-            _id: '5',
+
             name: 'Sulum Pants',
             category: 'Pants',
             image: './images/p5.jpg',
@@ -77,7 +77,7 @@ const data = {
             description: 'Quality Product'
         },
         {
-            _id: '6',
+
             name: 'Daidos Pant',
             category: 'Pants',
             image: './images/p6.jpg',
