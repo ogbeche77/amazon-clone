@@ -8,6 +8,9 @@ import productRouter from './routers/productRouter.js';
 
 
 const app = express();
+//Middleware added to translate json
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 //Connect to MongoDB & hide MongoDB URI
 mongoose
     .connect(process.env.MONGODB_URI || 'mongodb://localhost/amazon-clone',
