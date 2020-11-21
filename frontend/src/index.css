@@ -273,3 +273,16 @@ img.large {
   display: block;
 
 }
+
+/*Check out*/
+.checkout-stepsc>div {
+  border-top: 0.3rem grey solid;
+  color: grey;
+  flex: 1;
+  padding: 1rem;
+}
+
+.checkout-steps>div.active {
+  border-top-color: burlywood;
+  color: burlywood;
+}
