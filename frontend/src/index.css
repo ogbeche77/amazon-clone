@@ -247,7 +247,7 @@ img.large {
 
 .form label {
   margin: 1rem 0;
-  display: block;
+
 }
 
 /*Drop down*/
@@ -275,7 +275,7 @@ img.large {
 }
 
 /*Check out*/
-.checkout-stepsc>div {
+.checkout-steps>div {
   border-top: 0.3rem grey solid;
   color: grey;
   flex: 1;
